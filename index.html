@@ -6,16 +6,16 @@
     <title>u central</title>
     <style>
         body {
-            
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
+            margin: 0;
         }
         img {
-            max-width: 100%;
-            max-height: 100%;
-            
+            height: 100vh; /* La imagen ocupa toda la altura de la ventana */
+            width: auto;   /* Mantiene proporción */
+            object-fit: cover; /* Llena el espacio, puede recortar */
         }
     </style>
 </head>
@@ -23,6 +23,7 @@
     <img src="foto.jpg" alt="foto">
 </body>
 </html>
+
 
 
 
